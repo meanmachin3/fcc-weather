@@ -144,6 +144,12 @@ function getIcon(description) {
               <div class='rain'></div>\
             </div>";
             break;
+        case "light rain":
+        icon = "<div class='icon rainy'>\
+          <div class='cloud'></div>\
+          <div class='rain'></div>\
+        </div>";
+        break;
         case "rain":
             icon = "<div class='icon rainy'>\
               <div class='cloud'></div>\
