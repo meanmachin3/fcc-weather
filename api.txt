@@ -1,1 +1,0 @@
-http://api.openweathermap.org/data/2.5/forecast/daily?lat=50.6354&lon=3.0643&lang=french&APPID=83e2622fd44fbc000e40d8aa8e5f3d94&mode=json&cnt=15&units=metric
