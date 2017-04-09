@@ -116,6 +116,13 @@ function getIcon(description) {
   <div class='rain'></div>
 </div>*/
     switch (description) {
+      case "sky is clear":
+            icon = "<div class='icon sunny'>\
+              <div class='sun'>\
+                <div class='rays'></div>\
+              </div>\
+            </div>";
+            break;
         case "clear sky":
             icon = "<div class='icon sunny'>\
               <div class='sun'>\
