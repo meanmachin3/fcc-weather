@@ -210,7 +210,7 @@ function renderWeather(data) {
 function getWeather() {
 
     var APPID = "83e2622fd44fbc000e40d8aa8e5f3d94";
-    var url = "http://api.openweathermap.org/data/2.5/forecast/daily?lat=" + coord.latitude + "&lon=" + coord.longitude + "&APPID=" + APPID + "&mode=json&cnt=7&units=metric";
+    var url = "https://api.openweathermap.org/data/2.5/forecast/daily?lat=" + coord.latitude + "&lon=" + coord.longitude + "&APPID=" + APPID + "&mode=json&cnt=7&units=metric";
     $.getJSON(url, renderWeather);
 }
 
